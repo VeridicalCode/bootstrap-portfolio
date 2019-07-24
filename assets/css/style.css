@@ -1,0 +1,144 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+header{
+	/*fixed navigation header that floats at the top of the screen*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 54px;
+	background-color: #fff;
+	width: 100vw;
+	text-align: center;
+}
+
+body{
+	/*leave room for header*/
+	margin-top: 120px;
+	/*fallback color if image fails*/
+	background-color: #f4e6c1;
+	background-image: url(../images/floor-tile.png)
+}
+
+.container{
+	/*holds all body copy*/
+	position: relative;
+	margin: auto;
+	width: 960px;
+	background: #fff;
+}
+
+section{
+	/*individual areas that float to the right of the nav panel*/
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1{
+	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p{
+	margin: 1em;
+}
+
+a:link, :visited{
+	color: #61040a;
+	text-decoration: none;
+}
+a:hover{
+	background-color: #f4e6c1;
+}
+
+hr{
+	border: 0px;
+	height: 3px;
+	width: 910px;
+	background-image: linear-gradient(to right, #f4e6c1, #61040a, #f4e6c1);
+	text-align: center;
+}
+
+#pageTitle{
+	float: left;
+	background-color: #61040a;
+	color: #f4e6c1;
+	padding: 16px;
+}
+
+.titleNav{
+	float: right;
+	padding: 16px 16px 0px;
+}
+
+.titleBar{
+	color: #61040a;
+	padding: 16px;
+	margin: 4px;
+	width: 960px;
+}
+
+/* for About Me page */
+.bioPic{
+	float: left;
+	padding: 0px 16px;
+}
+
+/* for portfolio page */
+
+.clearfix{
+	overflow: auto;
+}
+
+.gallery {
+	margin: 8px;
+	border: 2px solid #f4e6c1;
+	float: left;
+	width: 180px;
+}
+  
+.gallery:hover {
+	border: 2px solid #61040a;
+}
+  
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+  
+.desc {
+	padding: 12px;
+	text-align: center;
+	background-color: #fff;
+}
+
+/* for Contact page */
+
+label{
+	margin-left: 12px;
+}
+input[type=text], select, textarea {
+	width: 936px;
+	margin: 12px;
+	padding: 12px;
+	border: 1px solid #61040a; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	resize: none;
+}
+
+/* submit button */
+input[type=submit] {
+	background-color: #61040a;
+	color: #f4e6c1;
+	padding: 12px 20px;
+	margin: 12px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #f4e6c1;
+	color: #fff;
+}
