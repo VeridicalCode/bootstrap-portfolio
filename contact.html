@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+	<title>About Me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta charset="utf-8">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+	<!-- bootstrap navigation bar -->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="navbar-brand">Mars Getsoian</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav ml-auto">
+				<a class="nav-item nav-link active" href="./index.html">About Me <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+				<a class="nav-item nav-link" href="./contact.html">Make Contact</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<!-- start us out with a header row -->
+		<div class="row">
+			<div class="col-12">
+				<h1>Get in touch!</h1>
+				<hr />
+			</div>
+		</div>
+
+		<!-- now bust out some form-fill -->
+		<div class="row">
+			<form action="action_page.php">
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="f.lastname@example.com" name="email">
+				</div>
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" class="form-control" id="name" placeholder="your name here" name="name">
+				</div>
+				<div class="form-group">
+					<label for="fmessage">Message:</label>
+					<textarea id="subject" class="form-control" name="subject" placeholder="and a short message."
+						style="height:200px"></textarea>
+				</div>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+
+	<!-- Bootstrap javascript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
