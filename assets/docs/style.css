@@ -27,6 +27,10 @@ body{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#resumeContainer{
+	height: 600px;
+}
+
 h1{
 	font-size: 1.25em;
 	font-family: 'Georgia', Times, Times New Roman, serif;
