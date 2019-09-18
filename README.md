@@ -1,2 +1,2 @@
 # bootstrap-portfolio
-learn to bootstrap
+A mobile-compatible Gitpages portfolio.
