@@ -3,7 +3,7 @@
 
 <head>
 
-	<title>About Me</title>
+	<title>Links & Contact Info</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<meta charset="utf-8">
 
@@ -31,24 +31,45 @@
 				<li class="nav-item">
 					<a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-item nav-link" href="https://www.linkedin.com/in/mars-getsoian-931617192/">LinkedIn</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-item nav-link" href="https://github.com/quething">GitHub</a>
-				</li>
+				</li> -->
 				<li class="nav-item active">
-					<a class="nav-item nav-link active" href="./resume.html">Resume<span class="sr-only"> (current)</span></a>
+					<a class="nav-item nav-link active" href="./resume.html">Links & Contact Info<span class="sr-only">
+							(current)</span></a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 
-	<div class="container" id="resumeContainer">
-		<!-- let's try chunking the resume in here -->
-		<embed src="./assets/docs/resume.pdf" type="application/pdf" width="100%" height="100%" />
-
+	<div class="container">
+		<!-- start us out with a header row -->
+		<div class="row">
+			<div class="col-12">
+				<h1>The Little Details</h1>
+				<hr />
+			</div>
+		</div>
+		<!-- email addy, links to github and linkedin -->
+		<div class="row">
+			<div class="col-12">
+				<span>Feel free to check out my <a href="https://www.linkedin.com/in/mars-getsoian-931617192/"><strong>LinkedIn</strong></a> or <strong><a href="https://github.com/quething">GitHub</a></strong>, or to email me at
+					<strong>m.getso<!-- spamProtectionString -->ian@gmail.com</strong>, or check out my resume below to learn more about me and my work!</span>
+					<br/>
+					<span></span>
+					<br/>
+			</div>
+		</div>
+		<div id="resumeContainer">
+			<!-- display the whole resume on the page -->
+			<embed src="./assets/docs/resume.pdf" type="application/pdf" width="100%" height="100%" />
+	
+		</div>
 	</div>
+
 
 	<!-- Bootstrap javascript -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -60,5 +81,4 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 		crossorigin="anonymous"></script>
-</body>
 </body>
